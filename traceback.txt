@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 375, in script
+    a "So, I decided we needed a super weapon, to boost our party up 100000%."
+ValueError: incomplete format
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 375, in script
+    a "So, I decided we needed a super weapon, to boost our party up 100000%."
+  File "C:\Users\Abe\Desktop\renpy\renpy-8.0.3-sdk\renpy\ast.py", line 921, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "C:\Users\Abe\Desktop\renpy\renpy-8.0.3-sdk\renpy\exports.py", line 1362, in say
+    what = what % tag_quoting_dict
+ValueError: incomplete format
+
+Windows-10-10.0.19045 AMD64
+Ren'Py 8.0.3.22090809
+Isekai Dev InDev_1.2
+Thu Dec 29 03:29:04 2022
